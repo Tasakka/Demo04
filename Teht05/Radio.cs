@@ -29,7 +29,7 @@ namespace Teht05
         }
         public void RadioVolume (int vol)
         {
-            if (vol <= 9 && vol >= 1)
+            if (vol <= 9 && vol >= 0)
             {
                 Volume = vol;
             }
